@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskEngine.Application\TaskEngine.Application.csproj" />
+    <ProjectReference Include="..\TaskEngine.Domain\TaskEngine.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+  	<!-- Copy all the elements in Data folder to the output directory-->
+  	<None Include="Data\**\*">
+  		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  	</None>
+  </ItemGroup>
+
+</Project>

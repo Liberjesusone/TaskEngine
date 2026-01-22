@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Type": "GET_MEAN_H",
+    "Payload": "{\"Numbers\": [10, 20, 30, 40, 50]}",
+    "Status": 0,
+    "CreatedAt": "2023-10-27T10:00:00",
+    "FinishedAt": null,
+    "IsDeleted": false
+  },
+  {
+    "Id": 2,
+    "Type": "GET_MEAN_H",
+    "Payload": "{\"Numbers\": [5, 5, 5, 5]}",
+    "Status": 0,
+    "CreatedAt": "2023-10-27T10:05:00",
+    "FinishedAt": null,
+    "IsDeleted": false
+  },
+  {
+    "Id": 3,
+    "Type": "TO_UPPER_H",
+    "Payload": "{\"Text\": \"Hello Everyone there this is a normal text\"}",
+    "Status": 0,
+    "CreatedAt": "2023-10-27T10:10:00",
+    "FinishedAt": null,
+    "IsDeleted": false
+  }
+]

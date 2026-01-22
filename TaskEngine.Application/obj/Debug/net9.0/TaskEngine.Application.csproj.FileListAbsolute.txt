@@ -1,0 +1,16 @@
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\bin\Debug\net9.0\TaskEngine.Application.deps.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\bin\Debug\net9.0\TaskEngine.Application.dll
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\bin\Debug\net9.0\TaskEngine.Application.pdb
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\bin\Debug\net9.0\TaskEngine.Domain.dll
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\bin\Debug\net9.0\TaskEngine.Domain.pdb
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.csproj.AssemblyReference.cache
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.AssemblyInfoInputs.cache
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.AssemblyInfo.cs
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.csproj.CoreCompileInputs.cache
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.sourcelink.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngi.A630640A.Up2Date
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.dll
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\refint\TaskEngine.Application.dll
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\TaskEngine.Application.pdb
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Application\obj\Debug\net9.0\ref\TaskEngine.Application.dll

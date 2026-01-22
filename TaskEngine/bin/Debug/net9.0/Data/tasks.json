@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Type": "GET_MEAN_H",
+    "Payload": "{\"Numeros\": [10, 20, 30, 40, 50]}",
+    "Status": 0,
+    "Priority": 1,
+    "CreatedAt": "2023-10-27T10:00:00",
+    "Result": null
+  },
+  {
+    "Id": 2,
+    "Type": "GET_MEAN_H",
+    "Payload": "{\"Numeros\": [5, 5, 5, 5]}",
+    "Status": 0,
+    "Priority": 2,
+    "CreatedAt": "2023-10-27T10:05:00",
+    "Result": null
+  },
+  {
+    "Id": 3,
+    "Type": "GET_MEAN_H",
+    "Payload": "{\"Numeros\": [1.5, 2.5, 3.5, 4.5]}",
+    "Status": 0,
+    "Priority": 3,
+    "CreatedAt": "2023-10-27T10:10:00",
+    "Result": null
+  }
+]
