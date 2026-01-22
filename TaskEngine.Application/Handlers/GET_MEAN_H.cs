@@ -29,10 +29,10 @@ public class GET_MEAN_H : IHandler
         var data = (MeanData?)Deserialize(payload);
 
         if (data == null || data.Numbers == null)
-        { 
+        {
             Console.WriteLine("Invalid payload in GET_MEDIAN_H " +
-                              "\nPayload: payload" + payload +
-                              "\nExpected format: {\"Numbers\": [10, 20, 30, 40, 50]}\n\n");
+                              "\nPayload: " + payload +
+                              "\nExpected format: \"{\\\"Numbers\\\": [10, 20, 30, 40, 50]}\"\n\n");
             return null; 
         }
 

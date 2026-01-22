@@ -6,7 +6,7 @@ namespace TaskEngine.Application.Handlers;
 
 // This handler process a payload that contains a string and returns the uppercase version of it.
 // e.g: "Type": "TO_UPPER_H",
-//      "Payload": "{\"Text\": \"Hello Everyone there this is a normal text\"}",
+//      "Payload": "{\"Text\": \"Hello Everyone there, this is a normal text\"}",
 public class TO_UPPER_H : IHandler
 {
     // The class to hold the deserialized data
@@ -17,7 +17,6 @@ public class TO_UPPER_H : IHandler
         // We use the default options to ignore case sensitivity
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         return JsonSerializer.Deserialize<TextData>(payload, options);
-
     }
 
     /// <summary>
@@ -32,8 +31,8 @@ public class TO_UPPER_H : IHandler
         if (data == null || string.IsNullOrEmpty(data.Text))
         {
             Console.WriteLine("Invalid payload in TO_UPPER_H " +
-                              "\nPayload: " + payload + 
-                              "\nExpected format: Any Kind Of Text\n\n");
+                              "\nPayload: " + payload +
+                              "\nExpected format: \"{\\\"Text\\\": \\\"Hello Everyone there, this is a normal text\\\"}\" \n\n");
             return null;
         }
 

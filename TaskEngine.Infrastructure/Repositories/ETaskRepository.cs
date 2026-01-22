@@ -99,4 +99,17 @@ public class ETaskRepository : IETaskRepository
             Console.WriteLine("Task deleted but not updated in memory");
         return true;
     }
+
+
+    /// <summary>
+    /// Goes for each task that meets a condition and performs an action on it.
+    /// </summary>
+    public void ForEach(Predicate<ETask> condition, Action<ETask> action)
+    {
+        foreach (var task in _eTasksList.Where(t => condition(t)))
+        {
+            // We pass a clone to avoid external modifications
+            action(task.Clone());
+        }
+    }
 }

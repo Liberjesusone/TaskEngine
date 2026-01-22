@@ -18,9 +18,17 @@ public class ETask
 
     public bool IsDeleted { get; set; } = false;
 
+    public string? Result { get; set; }
 
     public ETask()
     {
 
+    }
+
+
+    // Creates a copy of the ETask (Shallow Copy)
+    public ETask Clone()
+    {
+        return (ETask)this.MemberwiseClone();
     }
 }

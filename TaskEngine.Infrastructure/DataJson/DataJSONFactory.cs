@@ -41,7 +41,15 @@ namespace TaskEngine.Infrastructure.JSONFactory
             EnsureFileExists();
 
             var json = await File.ReadAllTextAsync(_filePath);
-            return JsonSerializer.Deserialize<List<ETask>>(json) ?? new List<ETask>();
+
+            // Configuration of the serializer to understand the enum
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            options.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter());
+
+            return JsonSerializer.Deserialize<List<ETask>>(json, options) ?? new List<ETask>();
         }
 
         /// <summary>
