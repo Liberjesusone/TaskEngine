@@ -19,6 +19,16 @@ public class TO_UPPER_H : IHandler
         return JsonSerializer.Deserialize<TextData>(payload, options);
     }
 
+    public string GetPayloadFromUser()
+    {
+        Console.WriteLine("Introduce the text (example: hello there):");
+
+        string input = Console.ReadLine() ?? "";
+
+        // The handler creates the object and serializes it 
+        return JsonSerializer.Serialize(new { Text = input });
+    }
+
     /// <summary>
     /// Transforms the input string from the payload to uppercase.
     /// </summary>

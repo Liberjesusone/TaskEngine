@@ -1,39 +1,39 @@
 [
   {
     "Id": 1,
-    "Type": "GET_MEAN_H",
-    "Payload": "{\"Numbers\": [10, 20, 30, 40, 50]}",
-    "Status": "PENDING",
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: [10, 20, 30, 40, 50]}",
+    "Status": 2,
     "CreatedAt": "2023-10-27T10:00:00",
-    "FinishedAt": null,
+    "FinishedAt": "2026-01-24T17:36:39.9040571-04:00",
     "IsDeleted": false,
-    "Result": ""
+    "Result": "{\u0022Mean\u0022:30}"
   },
   {
     "Id": 2,
-    "Type": "GET_MEAN_H",
-    "Payload": "{\"Numbers\": [5, 5, 5, 5]}",
-    "Status": "PENDING",
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: [5, 5, 5, 5]}",
+    "Status": 2,
     "CreatedAt": "2023-10-27T10:05:00",
-    "FinishedAt": null,
+    "FinishedAt": "2026-01-24T17:09:53.1231823-04:00",
     "IsDeleted": false,
-    "Result": ""
+    "Result": "{\u0022Mean\u0022:5}"
   },
   {
     "Id": 3,
-    "Type": "TO_UPPER_H",
-    "Payload": "{\"Text\": \"Hello Everyone there this is a normal text\"}",
-    "Status": "PENDING",
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022: \u0022Hello Everyone there this is a normal text\u0022}",
+    "Status": 2,
     "CreatedAt": "2023-10-27T10:10:00",
-    "FinishedAt": null,
+    "FinishedAt": "2026-01-24T17:23:48.8822441-04:00",
     "IsDeleted": false,
-    "Result": ""
+    "Result": "{ UpperText = HELLO EVERYONE THERE THIS IS A NORMAL TEXT }"
   },
   {
     "Id": 4,
-    "Type": "GET_MEAN_H",
-    "Payload": "{\"Numbers\": [10, 20, 30, 40, 50]}",
-    "Status": "RUNNING",
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: [10, 20, 30, 40, 50]}",
+    "Status": 1,
     "CreatedAt": "2023-10-27T10:00:00",
     "FinishedAt": null,
     "IsDeleted": false,
@@ -41,9 +41,9 @@
   },
   {
     "Id": 5,
-    "Type": "GET_MEAN_H",
-    "Payload": "{\"Numbers\": [5, 5, 5, 5]}",
-    "Status": "RUNNING",
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: [5, 5, 5, 5]}",
+    "Status": 1,
     "CreatedAt": "2023-10-27T10:05:00",
     "FinishedAt": null,
     "IsDeleted": false,
@@ -51,9 +51,9 @@
   },
   {
     "Id": 6,
-    "Type": "TO_UPPER_H",
-    "Payload": "{\"Text\": \"Hello Everyone there this is a normal text\"}",
-    "Status": "RUNNING",
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022: \u0022Hello Everyone there this is a normal text\u0022}",
+    "Status": 1,
     "CreatedAt": "2023-10-27T10:10:00",
     "FinishedAt": null,
     "IsDeleted": false,
@@ -61,29 +61,29 @@
   },
   {
     "Id": 7,
-    "Type": "GET_MEAN_H",
-    "Payload": "{\"Numbers\": [10, 20, 30, 40, 50]}",
-    "Status": "SUCCESS",
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: [10, 20, 30, 40, 50]}",
+    "Status": 2,
     "CreatedAt": "2023-10-27T10:00:00",
     "FinishedAt": "2023-10-27T10:00:02",
     "IsDeleted": false,
-    "Result": "30"
+    "Result": "{\u0022Mean\u0022:30}"
   },
   {
     "Id": 8,
-    "Type": "GET_MEAN_H",
-    "Payload": "{\"Numbers\": [5, 5, 5, 5]}",
-    "Status": "SUCCESS",
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: [5, 5, 5, 5]}",
+    "Status": 2,
     "CreatedAt": "2023-10-27T10:05:00",
     "FinishedAt": "2023-10-27T10:05:02",
     "IsDeleted": false,
-    "Result": "5"
+    "Result": "{\u0022Mean\u0022:5}"
   },
   {
     "Id": 9,
-    "Type": "TO_UPPER_H",
-    "Payload": "{\"Text\": \"Hello Everyone there this is a normal text\"}",
-    "Status": "SUCCESS",
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022: \u0022Hello Everyone there this is a normal text\u0022}",
+    "Status": 2,
     "CreatedAt": "2023-10-27T10:10:00",
     "FinishedAt": "2023-10-27T10:10:02",
     "IsDeleted": false,
@@ -91,9 +91,9 @@
   },
   {
     "Id": 10,
-    "Type": "GET_MEAN_H",
+    "Type": 2,
     "Payload": "[10, 20, 30, 40,",
-    "Status": "FAILED",
+    "Status": 3,
     "CreatedAt": "2023-10-27T10:00:00",
     "FinishedAt": "2023-10-27T10:00:02",
     "IsDeleted": false,
@@ -101,9 +101,9 @@
   },
   {
     "Id": 11,
-    "Type": "GET_MEAN_H",
-    "Payload": "{\"Numbers\": 5, 5]}",
-    "Status": "FAILED",
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: 5, 5]}",
+    "Status": 3,
     "CreatedAt": "2023-10-27T10:05:00",
     "FinishedAt": "2023-10-27T10:05:02",
     "IsDeleted": false,
@@ -111,12 +111,72 @@
   },
   {
     "Id": 12,
-    "Type": "TO_UPPER_H",
-    "Payload": "{\"TexHello Everyone there this is a normal text\"}",
-    "Status": "FAILED",
+    "Type": 0,
+    "Payload": "{\u0022TexHello Everyone there this is a normal text\u0022}",
+    "Status": 3,
     "CreatedAt": "2023-10-27T10:10:00",
     "FinishedAt": "2023-10-27T10:10:02",
     "IsDeleted": false,
     "Result": ""
+  },
+  {
+    "Id": 13,
+    "Type": 0,
+    "Payload": "HOla manito here we are editing the payload",
+    "Status": 0,
+    "CreatedAt": "2026-01-23T12:50:46.3905703-04:00",
+    "FinishedAt": null,
+    "IsDeleted": true,
+    "Result": null
+  },
+  {
+    "Id": 14,
+    "Type": 2,
+    "Payload": "\u0022{\\\u0022Numbers\\\u0022: [10, 3, 5, 8, 3]}\\\u0022",
+    "Status": 0,
+    "CreatedAt": "2026-01-23T15:19:13.0324895-04:00",
+    "FinishedAt": null,
+    "IsDeleted": true,
+    "Result": null
+  },
+  {
+    "Id": 15,
+    "Type": 1,
+    "Payload": "HOla mi vida bella hermosa y pechocha",
+    "Status": 0,
+    "CreatedAt": "2026-01-23T15:25:25.8356028-04:00",
+    "FinishedAt": null,
+    "IsDeleted": true,
+    "Result": null
+  },
+  {
+    "Id": 16,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[24,31,20,21,40]}",
+    "Status": 2,
+    "CreatedAt": "2026-01-24T18:10:58.558989-04:00",
+    "FinishedAt": "2026-01-24T18:12:21.0579756-04:00",
+    "IsDeleted": false,
+    "Result": "{\u0022Mean\u0022:27.2}"
+  },
+  {
+    "Id": 17,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022Hello my friends \u0022}",
+    "Status": 2,
+    "CreatedAt": "2026-01-24T18:22:26.0026109-04:00",
+    "FinishedAt": "2026-01-24T18:23:28.6869516-04:00",
+    "IsDeleted": false,
+    "Result": "{\u0022UpperText\u0022:\u0022HELLO MY FRIENDS \u0022}"
+  },
+  {
+    "Id": 18,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022Hola mi Familia bella vamos a la paradura\u0022}",
+    "Status": 2,
+    "CreatedAt": "2026-01-24T18:23:49.1133603-04:00",
+    "FinishedAt": "2026-01-24T18:24:33.5024499-04:00",
+    "IsDeleted": false,
+    "Result": "{\u0022LowerText\u0022:\u0022hola mi familia bella vamos a la paradura\u0022}"
   }
 ]

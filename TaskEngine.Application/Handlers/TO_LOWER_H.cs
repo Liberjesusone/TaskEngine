@@ -17,7 +17,16 @@ public class TO_LOWER_H : IHandler
         // We use the default options to ignore case sensitivity
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         return JsonSerializer.Deserialize<TextData>(payload, options);
+    }
 
+    public string GetPayloadFromUser()
+    {
+        Console.WriteLine("Introduce the text (example: hello there):");
+
+        string input = Console.ReadLine() ?? "";
+
+        // The handler creates the object and serializes it 
+        return JsonSerializer.Serialize(new { Text = input });
     }
 
     /// <summary>

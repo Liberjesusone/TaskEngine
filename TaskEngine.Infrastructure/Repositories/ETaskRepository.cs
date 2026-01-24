@@ -94,12 +94,11 @@ public class ETaskRepository : IETaskRepository
         var result = await _dataFactory.SaveAllAsync(_eTasksList);
 
         if (result)
-            Console.WriteLine("Task deleted successfully.");
+            Console.WriteLine("Task deleted successfully and saved in memory.");
         else
             Console.WriteLine("Task deleted but not updated in memory");
         return true;
     }
-
 
     /// <summary>
     /// Goes for each task that meets a condition and performs an action on it.
@@ -112,4 +111,23 @@ public class ETaskRepository : IETaskRepository
             action(task.Clone());
         }
     }
+
+    /// <summary>
+    /// Returns the list of pending tasks that are not marked as deleted.
+    /// </summary>
+    public List<ETask> GetPendingTasks()
+    {
+        return _eTasksList.Where(t => t.Status == ETaskStatus.PENDING && !t.IsDeleted).ToList();
+    }
+
+    public bool SaveAll()
+    {
+        var result = _dataFactory.SaveAllAsync(_eTasksList).GetAwaiter().GetResult();
+        if (result)
+            Console.WriteLine("All tasks saved in memory.");
+        else
+            Console.WriteLine("Tasks not saved in memory");
+        return result;
+    }
+
 }

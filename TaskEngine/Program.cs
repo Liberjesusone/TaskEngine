@@ -6,6 +6,6 @@ DataJSONFactory _dataFactory = new DataJSONFactory();
 ETaskRepository _repository = new ETaskRepository(_dataFactory);
 
 MenuController menu = new MenuController(_repository);
-menu.show();    
+await menu.Show();    
 
 

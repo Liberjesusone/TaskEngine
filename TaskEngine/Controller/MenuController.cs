@@ -1,20 +1,23 @@
 ﻿using TaskEngine.Application.Interfaces;
+using TaskEngine.Application.Services;
 
 namespace TaskEngine.Controller;
 
 public class MenuController : Controller
 {
     IETaskRepository _eTasksRepository;
+    ETaskEngine _engine; 
     public MenuController(IETaskRepository eTasksRepository)
     {
         _eTasksRepository = eTasksRepository;
+        _engine = new ETaskEngine(_eTasksRepository);
     }
 
-    public override void show()
+    public override async Task Show()
     {
         while (true)
-        { 
-            Console.Clear();
+        {
+            await Clear();
             Console.WriteLine("Welcome to the Task Engine\n\n" +
                               "1- Create a Task\n" +
                               "2- Pending tasks\n" +
@@ -27,43 +30,38 @@ public class MenuController : Controller
 
             switch (option)
             {
-                case 1:
-                    Console.WriteLine("Create a Task");
-                    Console.ReadLine();
+                case 1: //Create a Task
+                    var createController = new CreateController(_eTasksRepository, _engine);
+                    await createController.Show();
+                    PressAnyKey();
                     break;
-                case 2:
-                    Console.WriteLine("Pending tasks");
-                    var pendingController = new PendingController(_eTasksRepository);
-                    pendingController.show();
-                    Console.ReadLine();
+                case 2: // Pending tasks
+                    var pendingController = new PendingController(_eTasksRepository, _engine);
+                    await pendingController.show();
+                    PressAnyKey();
                     break;
-                case 3:
-                    Console.WriteLine("Running Tasks");
+                case 3: // Running tasks
                     var runningController = new RunningController(_eTasksRepository);
-                    runningController.show();
-                    Console.ReadLine();
+                    await runningController.Show();
+                    PressAnyKey();
                     break;
-                case 4:
-                    Console.WriteLine("Completed tasks");
+                case 4: // Completed tasks
                     var successController= new SuccessController(_eTasksRepository);
-                    successController.show();
-                    Console.ReadLine();
+                    await successController.Show();
+                    PressAnyKey();
                     break;
-                case 5:
-                    Console.WriteLine("Failed tasks");
-
+                case 5: // Failed tasks
                     var failedController = new FailedController(_eTasksRepository);
-                    failedController.show();
-                    Console.ReadLine();
+                    await failedController.Show();
+                    PressAnyKey();
                     break;
-                case 0:
+                case 0: // Close the program
                     Console.WriteLine("Closing the program");
-                    Console.ReadLine();
-                    System.Environment.Exit(0);
-                    break;
+                    PressAnyKey();
+                    return;
                 default:
                     Console.WriteLine("Invalid option");
-                    Console.ReadLine();
+                    PressAnyKey();
                     break;
             }
         }

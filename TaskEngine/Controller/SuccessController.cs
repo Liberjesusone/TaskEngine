@@ -14,7 +14,7 @@ class SuccessController : Controller
     public void ShowList()
     {
         _eTasksRepository.ForEach(
-            task => task.Status == ETaskStatus.SUCCESS,
+            task => task.Status == ETaskStatus.SUCCESS && !task.IsDeleted,
             task =>
             {
                 Separator();
@@ -29,12 +29,11 @@ class SuccessController : Controller
             });
     }
 
-    public override void show()
+    public override async Task Show()
     {
-        bool loop = true;
-        while (loop)
+        while (true)
         {
-            Console.Clear();
+            await Clear();
             Console.WriteLine("Successful Tasks\n\n" +
                              "0- Back\n\n\n");
 
@@ -47,11 +46,10 @@ class SuccessController : Controller
             {
                 case 0:
                     Console.WriteLine("Coming Back");
-                    loop = false;
-                    break;
+                    return;
                 default:
                     Console.WriteLine("Invalid option");
-                    Console.ReadLine();
+                    PressAnyKey();
                     break;
             }
         }

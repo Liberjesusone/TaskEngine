@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Runtime.InteropServices.ObjectiveC;
+using System.Text.Json;
 using TaskEngine.Application.Interfaces;
 
 namespace TaskEngine.Application.Handlers;
@@ -16,6 +17,21 @@ public class GET_MEAN_H : IHandler
         // We use the default options to ignore case sensitivity
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         return JsonSerializer.Deserialize<MeanData>(payload, options);
+    }
+
+    public string GetPayloadFromUser()
+    {
+        Console.WriteLine("Introduce the numbers separated by \" , \" (example: 10, 20.5, 30):");
+
+        string input = Console.ReadLine() ?? "";
+
+        // We convert the input in a list of doubles
+        var numbers = input.Split(',')
+                           .Select(n => double.TryParse(n.Trim(), out double val) ? val : 0)
+                           .ToList();
+
+        // The handler creates the object and serializes it 
+        return JsonSerializer.Serialize(new { Numbers = numbers });
     }
 
     /// <summary>

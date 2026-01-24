@@ -16,7 +16,7 @@ public class RunningController : Controller
     public void ShowList()
     {
         _eTasksRepository.ForEach(
-            task => task.Status == ETaskStatus.RUNNING,
+            task => task.Status == ETaskStatus.RUNNING && !task.IsDeleted,
             task =>
             {
                 Separator();
@@ -31,12 +31,11 @@ public class RunningController : Controller
 
     }
 
-    public override void show()
+    public override async Task Show()
     {
-        bool loop = true;
-        while (loop)
+        while (true)
         {
-            Console.Clear();
+            await Clear();
             Console.WriteLine("Running Tasks\n\n" +
                              "0- Back\n\n\n");
 
@@ -49,11 +48,10 @@ public class RunningController : Controller
             {
                 case 0:
                     Console.WriteLine("Coming Back");
-                    loop = false;
-                    break;
+                    return;
                 default:
                     Console.WriteLine("Invalid option");
-                    Console.ReadLine();
+                    PressAnyKey();
                     break;
             }
         }
