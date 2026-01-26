@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Runtime.InteropServices.ObjectiveC;
+using System.Text.Json;
 using TaskEngine.Application.Interfaces;
 
 namespace TaskEngine.Application.Handlers;
@@ -18,6 +19,21 @@ public class GET_MEAN_H : IHandler
         return JsonSerializer.Deserialize<MeanData>(payload, options);
     }
 
+    public string GetPayloadFromUser()
+    {
+        Console.WriteLine("Introduce the numbers separated by \" , \" (example: 10, 20.5, 30):");
+
+        string input = Console.ReadLine() ?? "";
+
+        // We convert the input in a list of doubles
+        var numbers = input.Split(',')
+                           .Select(n => double.TryParse(n.Trim(), out double val) ? val : 0)
+                           .ToList();
+
+        // The handler creates the object and serializes it 
+        return JsonSerializer.Serialize(new { Numbers = numbers });
+    }
+
     /// <summary>
     /// Calculates the mean of a list of numbers provided in the payload.
     /// </summary>
@@ -26,18 +42,30 @@ public class GET_MEAN_H : IHandler
     /// <exception cref="Exception"></exception>
     public async Task<object?> HandleAsync(string payload)
     {
-        var data = (MeanData?)Deserialize(payload);
-
-        if (data == null || data.Numbers == null)
+        try
         {
-            Console.WriteLine("Invalid payload in GET_MEDIAN_H " +
-                              "\nPayload: " + payload +
-                              "\nExpected format: \"{\\\"Numbers\\\": [10, 20, 30, 40, 50]}\"\n\n");
-            return null; 
+            var data = (MeanData?)Deserialize(payload);
+
+            if (data == null || data.Numbers == null)
+            {
+                Console.WriteLine("Invalid payload in GET_MEDIAN_H " +
+                                  "\nPayload: " + payload +
+                                  "\nExpected format: \"{\\\"Numbers\\\": [10, 20, 30, 40, 50]}\"");
+                return null;
+            }
+
+            await Task.Delay(5000); // TODO: Just for testing parallelism Simulate a delay of 5 seconds
+
+            double result = data.Numbers.Average();
+
+            return new { Mean = result };
         }
-
-        double result = data.Numbers.Average();
-
-        return await Task.FromResult<object?>(new { Mean = result });
+        catch (Exception ex)
+        {
+            Console.WriteLine("[Error in GET_MEAN_H] Critical failure processing:" + ex.Message +
+                              "\nPayload: " + payload +
+                              "\nExpected format: \"{\\\"Numbers\\\": [10, 20, 30, 40, 50]}\"");
+            return null;
+        }
     }
 }

@@ -8,7 +8,7 @@ public class ETask
 
     public ETaskType Type { get; set; }
 
-    public string? Payload { get; set; }
+    public string? Payload { get; set; } = "";
 
     public ETaskStatus Status { get; set; } = ETaskStatus.PENDING;
 

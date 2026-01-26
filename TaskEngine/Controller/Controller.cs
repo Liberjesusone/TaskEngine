@@ -1,11 +1,31 @@
-﻿namespace TaskEngine.Controller;
+﻿using System.Data;
+
+namespace TaskEngine.Controller;
 
 public class Controller
 {
     // Prints a line: ----------------------
-    public virtual void Separator()
+    public void Separator()
     {
         Console.WriteLine("---------------------------------");
+    }
+
+    // Waits for any key to be pressed
+    public void PressAnyKey()
+    {
+        Console.Write("\nPress Enter to continue...\n");
+        Console.ReadKey(true);
+    }
+
+    // Clears the console and waits a bit to avoid flickering 
+    public async Task Clear()
+    {
+        // Cleans the input buffer to avoid old "Enters" triggering actions
+        while (Console.KeyAvailable) Console.ReadKey(true);
+        Console.Clear();
+        Console.WriteLine("\x1b[3J");
+        Console.SetCursorPosition(0, 0);
+        await Task.Delay(200);               // Delay to avoid flickering
     }
 
     // Ask for a number in the Console managing errors
@@ -35,7 +55,7 @@ public class Controller
         return option;
     }
 
-    public virtual void show() { }
+    public virtual async Task Show() { }
 
 
 }

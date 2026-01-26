@@ -1,0 +1,192 @@
+[
+  {
+    "Id": 42,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022ESTO ES UN GRITO EN MAYÚSCULAS\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:05:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 43,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022C# IS POWERFUL AND VERSATILE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:06:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 44,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022L'ITALIA È UN PAESE BELLISSIMO\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:07:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 45,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022LEARNING LANGUAGES OPENS DOORS\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:08:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 46,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022PROGRAMMING IN THE CLOUD\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:09:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 47,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022HOLA A TODOS DESDE EL CURSO DE ESPAÑOL\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:10:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 48,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022ASYNCHRONOUS PROGRAMMING IS COOL\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:11:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 49,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022NON MI PIACE URLARE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:12:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 50,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022CLEAN ARCHITECTURE IS THE WAY\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:13:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 51,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022STOP USING ALL CAPS PLEASE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:14:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 52,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022EL CÓDIGO LIMPIO ES MÁS FÁCIL DE LEER\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:15:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 53,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022EVERYTHING SHOULD BE IN LOWERCASE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:16:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 54,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022LA SINTASSI È MOLTO IMPORTANTE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:17:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 55,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022GITHUB ACTIONS FOR AUTOMATION\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:18:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 56,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022NUESTRA META ES LA FLUIDEZ\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:19:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 57,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022OBJECT ORIENTED PROGRAMMING RULES\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:20:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 58,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022EL PRÓXIMO AÑO VIAJARÉ A MADRID\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:21:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 59,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022VOGLIO IMPARARE LO SPAGNOLO VELOCEMENTE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:22:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 60,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022CORRER 20 KM ES MAS SENCILLO QUE CORRER 40\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:22:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  }
+]

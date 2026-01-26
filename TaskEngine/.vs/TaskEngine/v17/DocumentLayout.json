@@ -3,35 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\controller\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:controller\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\controller\\failedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:controller\\failedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5E634DD-0631-4ACC-8251-B2CECACDA3EB}|..\\TaskEngine.Application\\TaskEngine.Application.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine.application\\handlers\\to_upper_h.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\controller\\successcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:controller\\successcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{672BF3BC-E63E-4E06-8901-72470BB7CEEB}|..\\TaskEngine.Infrastructure\\TaskEngine.Infrastructure.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine.infrastructure\\data\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\controller\\runningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:controller\\runningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\controller\\pendingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:controller\\pendingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\controller\\createcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:controller\\createcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5E634DD-0631-4ACC-8251-B2CECACDA3EB}|..\\TaskEngine.Application\\TaskEngine.Application.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine.application\\services\\etaskengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A79DC9A-AFC3-424A-9A5D-38FDF6A83E23}|TaskEngine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{672BF3BC-E63E-4E06-8901-72470BB7CEEB}|..\\TaskEngine.Infrastructure\\TaskEngine.Infrastructure.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine.infrastructure\\repositories\\etaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E634DD-0631-4ACC-8251-B2CECACDA3EB}|..\\TaskEngine.Application\\TaskEngine.Application.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine.application\\handlers\\get_mean_h.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E634DD-0631-4ACC-8251-B2CECACDA3EB}|..\\TaskEngine.Application\\TaskEngine.Application.csproj|c:\\users\\liber\\onedrive\\documentos\\github\\taskengine\\taskengine.application\\handlers\\to_lower_h.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,92 +37,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\MenuController.cs",
-              "RelativeDocumentMoniker": "Controller\\MenuController.cs",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\MenuController.cs",
-              "RelativeToolTip": "Controller\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:41:37.486Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PendingController.cs",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\PendingController.cs",
-              "RelativeDocumentMoniker": "Controller\\PendingController.cs",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\PendingController.cs",
-              "RelativeToolTip": "Controller\\PendingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:01:40.254Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RunningController.cs",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\RunningController.cs",
-              "RelativeDocumentMoniker": "Controller\\RunningController.cs",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\RunningController.cs",
-              "RelativeToolTip": "Controller\\RunningController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T18:32:52.305Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SuccessController.cs",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\SuccessController.cs",
-              "RelativeDocumentMoniker": "Controller\\SuccessController.cs",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\SuccessController.cs",
-              "RelativeToolTip": "Controller\\SuccessController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwDkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T18:51:19.054Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FailedController.cs",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\FailedController.cs",
-              "RelativeDocumentMoniker": "Controller\\FailedController.cs",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\FailedController.cs",
-              "RelativeToolTip": "Controller\\FailedController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T19:10:44.444Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Controller.cs",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\Controller.cs",
-              "RelativeDocumentMoniker": "Controller\\Controller.cs",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\Controller.cs",
-              "RelativeToolTip": "Controller\\Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T18:04:34.81Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -157,28 +69,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "tasks.json",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Infrastructure\\Data\\tasks.json",
-              "RelativeDocumentMoniker": "..\\TaskEngine.Infrastructure\\Data\\tasks.json",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Infrastructure\\Data\\tasks.json",
-              "RelativeToolTip": "..\\TaskEngine.Infrastructure\\Data\\tasks.json",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAowHcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-22T18:46:40.024Z",
+              "DocumentIndex": 0,
+              "Title": "TO_UPPER_H.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Handlers\\TO_UPPER_H.cs",
+              "RelativeDocumentMoniker": "..\\TaskEngine.Application\\Handlers\\TO_UPPER_H.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Handlers\\TO_UPPER_H.cs",
+              "RelativeToolTip": "..\\TaskEngine.Application\\Handlers\\TO_UPPER_H.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA+wDIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:51:43.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "Title": "TO_LOWER_H.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Handlers\\TO_LOWER_H.cs",
+              "RelativeDocumentMoniker": "..\\TaskEngine.Application\\Handlers\\TO_LOWER_H.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Handlers\\TO_LOWER_H.cs",
+              "RelativeToolTip": "..\\TaskEngine.Application\\Handlers\\TO_LOWER_H.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T18:38:36.342Z",
+              "WhenOpened": "2026-01-26T16:51:41.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GET_MEAN_H.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Handlers\\GET_MEAN_H.cs",
+              "RelativeDocumentMoniker": "..\\TaskEngine.Application\\Handlers\\GET_MEAN_H.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Handlers\\GET_MEAN_H.cs",
+              "RelativeToolTip": "..\\TaskEngine.Application\\Handlers\\GET_MEAN_H.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:51:35.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuccessController.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\SuccessController.cs",
+              "RelativeDocumentMoniker": "Controller\\SuccessController.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\SuccessController.cs",
+              "RelativeToolTip": "Controller\\SuccessController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:43:48.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RunningController.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\RunningController.cs",
+              "RelativeDocumentMoniker": "Controller\\RunningController.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\RunningController.cs",
+              "RelativeToolTip": "Controller\\RunningController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:43:17.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateController.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\CreateController.cs",
+              "RelativeDocumentMoniker": "Controller\\CreateController.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine\\Controller\\CreateController.cs",
+              "RelativeToolTip": "Controller\\CreateController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwEsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:31:32.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ETaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Infrastructure\\Repositories\\ETaskRepository.cs",
+              "RelativeDocumentMoniker": "..\\TaskEngine.Infrastructure\\Repositories\\ETaskRepository.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Infrastructure\\Repositories\\ETaskRepository.cs",
+              "RelativeToolTip": "..\\TaskEngine.Infrastructure\\Repositories\\ETaskRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwBUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T16:22:16.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ETaskEngine.cs",
+              "DocumentMoniker": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Services\\ETaskEngine.cs",
+              "RelativeDocumentMoniker": "..\\TaskEngine.Application\\Services\\ETaskEngine.cs",
+              "ToolTip": "C:\\Users\\liber\\OneDrive\\Documentos\\GitHub\\TaskEngine\\TaskEngine.Application\\Services\\ETaskEngine.cs",
+              "RelativeToolTip": "..\\TaskEngine.Application\\Services\\ETaskEngine.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAIBJwJUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T15:12:19.279Z",
               "EditorCaption": ""
             }
           ]

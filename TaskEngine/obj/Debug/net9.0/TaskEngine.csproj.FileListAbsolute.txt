@@ -22,3 +22,7 @@ C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\bin\Debug\net9.0
 C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\bin\Debug\net9.0\TaskEngine.Domain.pdb
 C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\obj\Debug\net9.0\TaskEngine.csproj.Up2Date
 C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\bin\Debug\net9.0\Data\tasks.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\bin\Debug\net9.0\Data\GET_MEAN_TASKS.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\bin\Debug\net9.0\Data\TASKS_TO_FAIL.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\bin\Debug\net9.0\Data\TO_LOWER_TASKS.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine\bin\Debug\net9.0\Data\TO_UPPER_TASKS.json

@@ -8,4 +8,6 @@ public interface IETaskRepository
     public Task<bool> DeleteAsync(int id);
     public ETask? GetById(int id);
     public void ForEach(Predicate<ETask> condition, Action<ETask> action);
+    public List<ETask> GetPendingTasks();
+    public bool SaveAll();
 }

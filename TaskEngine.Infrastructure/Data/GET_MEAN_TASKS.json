@@ -1,0 +1,202 @@
+[
+  {
+    "Id": 22,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[5, 10, 15, 20]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:40:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 23,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[100, 200, 300]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:41:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 24,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[1.5, 2.5, 3.5, 4.5]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:42:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 25,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[10, -10, 20, -20]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:43:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 26,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[7, 8, 9, 10, 11]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:44:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 27,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[0, 0, 0, 100]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:45:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 28,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[12.75, 13.25]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:46:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 29,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[99, 1]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:47:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 30,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[4, 4, 4, 4, 4, 4]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:48:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 31,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[10, 20, 30, 40, 50, 60, 70]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:49:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 32,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[-5, -15, -25]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:50:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 33,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[2.2, 4.4, 6.6]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:51:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 34,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[80, 90, 100, 70]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:52:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 35,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:53:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 36,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[50, 50, 100]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:54:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 37,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[33.3, 66.6]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:55:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 38,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[10, 10, 10, 10]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:56:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 39,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[45, 55, 65, 75]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:57:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 40,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[0.1, 0.2, 0.3]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:58:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 41,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[1000, 2000]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:59:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  }
+]

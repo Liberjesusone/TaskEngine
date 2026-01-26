@@ -1,0 +1,12 @@
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\bin\Release\net9.0\TaskEngine.Domain.deps.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\bin\Release\net9.0\TaskEngine.Domain.dll
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\bin\Release\net9.0\TaskEngine.Domain.pdb
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\TaskEngine.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\TaskEngine.Domain.AssemblyInfoInputs.cache
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\TaskEngine.Domain.AssemblyInfo.cs
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\TaskEngine.Domain.csproj.CoreCompileInputs.cache
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\TaskEngine.Domain.sourcelink.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\TaskEngine.Domain.dll
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\refint\TaskEngine.Domain.dll
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\TaskEngine.Domain.pdb
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Domain\obj\Release\net9.0\ref\TaskEngine.Domain.dll

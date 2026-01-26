@@ -19,24 +19,45 @@ public class TO_UPPER_H : IHandler
         return JsonSerializer.Deserialize<TextData>(payload, options);
     }
 
+    public string GetPayloadFromUser()
+    {
+        Console.WriteLine("Introduce the text (example: hello there):");
+
+        string input = Console.ReadLine() ?? "";
+
+        // The handler creates the object and serializes it 
+        return JsonSerializer.Serialize(new { Text = input });
+    }
+
     /// <summary>
     /// Transforms the input string from the payload to uppercase.
     /// </summary>
     /// <param name="payload">String with the text to uppercase</param>
     /// <returns>The uppercased text</returns>
-    public Task<object?> HandleAsync(string payload)
+    public async Task<object?> HandleAsync(string payload)
     {
-        var data = (TextData?)Deserialize(payload);
-
-        if (data == null || string.IsNullOrEmpty(data.Text))
+        try
         {
-            Console.WriteLine("Invalid payload in TO_UPPER_H " +
-                              "\nPayload: " + payload +
-                              "\nExpected format: \"{\\\"Text\\\": \\\"Hello Everyone there, this is a normal text\\\"}\" \n\n");
+            var data = (TextData?)Deserialize(payload);
+
+            if (data == null || string.IsNullOrEmpty(data.Text))
+            {
+                Console.WriteLine("Invalid payload in TO_UPPER_H " +
+                                  "\nPayload: " + payload +
+                                  "\nExpected format: \"{\\\"Text\\\": \\\"Hello Everyone there, this is a normal text\\\"}\"");
+                return null;
+            }
+
+            await Task.Delay(25000); // TODO: Just for testing parallelism Simulate a delay of 25 seconds
+
+            return new { UpperText = data.Text.ToUpper() };
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[Error in TO_UPPER_H] Critical failure processing: {ex.Message}" +
+                               "\nPayload: " + payload +
+                               "\nExpected format: \"{\\\"Text\\\": \\\"Hello Everyone there, this is a normal text\\\"}\"");
             return null;
         }
-
-        string result = data.Text.ToUpper();
-        return Task.FromResult<object?>(new { UpperText = result });
     }
 }
