@@ -9,12 +9,12 @@
         /// <returns>The data turned into an object</returns>
         public object? Deserialize(string payload);
 
-        
+
         /// <summary>
         /// Execute the task with the given payload
         /// </summary>
         /// <param name="payload"></param>
-        /// <returns>Returns the result of the task execution</returns>
+        /// <returns>Returns the result of the task execution or null if failed</returns>
         public Task<Object?> HandleAsync(string payload);
 
 

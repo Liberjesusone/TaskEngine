@@ -35,13 +35,12 @@ public class ETaskEngine
         await HandleTasksAsync(TaskQueue.Count);
     }
 
-    /// OJO in this method we can add some parallelism if needed in the future
     /// OJO in this method we save in memory just after processing all tasks, we can change this behavior if needed
     /// <summary>
     /// Processes up to 'n' tasks from the queue.
     /// </summary>
     /// <param name="n">The amount of eTasks that are going to be process</param>
-    public async Task HandleTasksAsync(int n)
+    public async Task HandleTasksAsyncNotParallel(int n)
     {
         if (n < 0)
             Console.WriteLine("Number of tasks to process must be positive");
@@ -73,11 +72,11 @@ public class ETaskEngine
                     }
 
                     // OJO here we can do something with the result if needed
-                    Console.WriteLine("Result: " + taskToProcess.Result + "\n");
+                    Console.WriteLine("Result: " + result.ToString() + "\n");
                 }
                 else
                 {
-                    Console.WriteLine($"No se encontró un Handler para el tipo: {taskToProcess.Type}");
+                    Console.WriteLine($"The handler for the type: {taskToProcess.Type} was not found");
                     break;
                 }
             }
@@ -87,6 +86,70 @@ public class ETaskEngine
         }
         _repository.SaveAll();
     }
+
+    /// <summary>
+    /// Processes up to 'n' tasks from the queue in parallel.
+    /// </summary>
+    /// <param name="n">The amount of eTasks that are going to be process</param>
+    public async Task HandleTasksAsync(int n)
+    {
+        if (n <= 0)
+        { 
+            Console.WriteLine("Number of tasks to process must be positive");
+            return; 
+        }
+
+        // List to hold the running tasks for parallel execution
+        List<Task> runningTasks = new List<Task>();
+
+        Console.WriteLine($"Doing {TaskQueue.Count} tasks\n");
+        // If there is a task to process and it's not deleted or null
+        while (n > 0 && DeQueue(out ETask? taskToProcess))
+        {
+            if (taskToProcess == null || taskToProcess.IsDeleted) continue;
+
+            // Try to get the handler for the task type
+            if (handlers.TryGetValue(taskToProcess.Type, out var handler))
+                runningTasks.Add(ProcessSingleTaskAsync(taskToProcess, handler));
+            else
+                Console.WriteLine($"The handler for the type: {taskToProcess.Type} was not found");
+            --n;
+        }
+
+        // Execute all tasks in parallel
+        await Task.WhenAll(runningTasks);
+
+        _repository.SaveAll();
+    }
+
+    /// <summary>
+    /// Here we process a single task and mark the status accordingly
+    /// </summary>
+    /// <param name="task"> the task to process</param>
+    /// <param name="handler">the handler that is gonnar process the task</param>
+    /// <returns></returns>
+    private async Task ProcessSingleTaskAsync(ETask task, IHandler handler)
+    {
+        task.Status = ETaskStatus.RUNNING;
+
+        // here we wait just fot this single handler to process the task but other tasks can run in parallel
+        var result = await handler.HandleAsync(task.Payload ?? "");
+
+        if (result == null) //If null the payload wasn't in the correct format 
+        {   
+            task.Status = ETaskStatus.FAILED;
+            task.FinishedAt = DateTime.Now;
+            Console.WriteLine($"Task {task.Id} Result: -FAILED-\n");
+        }
+        else
+        {
+            task.Result = JsonSerializer.Serialize(result);
+            task.Status = ETaskStatus.SUCCESS;
+            task.FinishedAt = DateTime.Now;
+            Console.WriteLine($"Task {task.Id} completed Result: {result.ToString()} \n");
+        }
+    }
+
 
     /// <summary>
     /// Adds the specified task to the queue if it is not null.

@@ -13,7 +13,7 @@ public class Controller
     // Waits for any key to be pressed
     public void PressAnyKey()
     {
-        Console.Write("\nPress Enter to continue...");
+        Console.Write("\nPress Enter to continue...\n");
         Console.ReadKey(true);
     }
 

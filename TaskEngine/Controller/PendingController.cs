@@ -70,12 +70,12 @@ public class PendingController : Controller
             {
                 case 1:
                     Console.WriteLine("Doing all tasks");
-                    await _engine.HandleAllAsync();
+                    _engine.HandleAllAsync();
                     PressAnyKey();
                     break;
                 case 2:
                     Console.WriteLine("Select the amount of tasks that you want to do");
-                    await _engine.HandleTasksAsync(AskANumber());
+                    _engine.HandleTasksAsync(AskANumber());
                     PressAnyKey();
                     break;
                 case 3:

@@ -1,4 +1,5 @@
-﻿using TaskEngine.Application.Interfaces;
+﻿using System.Text.Json;
+using TaskEngine.Application.Interfaces;
 using TaskEngine.Domain;
 
 namespace TaskEngine.Controller;
@@ -11,6 +12,7 @@ class SuccessController : Controller
         this._eTasksRepository = eTaskRepository;
     }
 
+    // OJO we can also show in screen the payload in a better way and still store it as json 
     public void ShowList()
     {
         _eTasksRepository.ForEach(
@@ -24,7 +26,34 @@ class SuccessController : Controller
                 Console.WriteLine("Status: " + task.Status.ToString());
                 Console.WriteLine("Created at: " + task.CreatedAt.ToString());
                 Console.WriteLine("Finished at: " + task.FinishedAt.ToString());
-                Console.WriteLine("Result: " + task.Result);
+
+                // We show the result in a better way
+                if (!string.IsNullOrEmpty(task.Result))
+                {
+                    try
+                    {
+                        // We parse the result to check if it's a JSON object
+                        using (JsonDocument doc = JsonDocument.Parse(task.Result))
+                        {
+                            Console.Write("Result: ");
+                            var root = doc.RootElement;
+
+                            // If it's an object, we print each property
+                            if (root.ValueKind == JsonValueKind.Object)
+                            {
+                                foreach (var property in root.EnumerateObject())
+                                    Console.Write($"{property.Name}: {property.Value} ");
+                                Console.WriteLine();
+                            }
+                            else
+                                Console.WriteLine(root.ToString());
+                        }
+                    }
+                    catch
+                    {
+                        Console.WriteLine($"Result: {task.Result}");
+                    }
+                }
                 Separator();
             });
     }
