@@ -1,0 +1,812 @@
+[
+  {
+    "Id": 1,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022hello there everybody\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T20:30:26.724658-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 2,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022la paciencia es la madre de la ciencia\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:00:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 3,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022c# is becoming my favorite language\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:05:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 4,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022l'apprendimento delle lingue è fantastico\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:10:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 5,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022software engineering is about solving problems\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:15:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 6,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022coding in parallel is like conducting an orchestra\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:20:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 7,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022mañana será un gran día para programar\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:25:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 8,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022the async-await pattern is powerful\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:30:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 9,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022mi piace molto insegnare lo spagnolo\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:35:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 10,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022clean code makes developers happy\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:40:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 11,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022unit testing is the safety net of the coder\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:45:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 12,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022json serialization can be tricky sometimes\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:50:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 13,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022always remember to await your tasks\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T21:55:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 14,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022la vita è bella quando il codice compila\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:00:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 15,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022don't forget to push your changes to git\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:05:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 16,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022el éxito es la suma de pequeños esfuerzos\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:10:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 17,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022keep it simple, stupid - the kiss principle\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:15:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 18,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022un experto es alguien que ha cometido todos los errores\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:20:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 19,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022il caffè è il carburante del programmatore\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:25:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 20,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022debugging is twice as hard as writing the code\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:30:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 21,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022:\u0022this is the last task of the batch\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:35:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 22,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[5, 10, 15, 20]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:40:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 23,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[100, 200, 300]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:41:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 24,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[1.5, 2.5, 3.5, 4.5]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:42:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 25,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[10, -10, 20, -20]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:43:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 26,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[7, 8, 9, 10, 11]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:44:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 27,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[0, 0, 0, 100]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:45:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 28,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[12.75, 13.25]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:46:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 29,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[99, 1]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:47:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 30,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[4, 4, 4, 4, 4, 4]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:48:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 31,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[10, 20, 30, 40, 50, 60, 70]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:49:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 32,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[-5, -15, -25]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:50:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 33,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[2.2, 4.4, 6.6]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:51:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 34,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[80, 90, 100, 70]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:52:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 35,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:53:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 36,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[50, 50, 100]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:54:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 37,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[33.3, 66.6]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:55:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 38,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[10, 10, 10, 10]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:56:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 39,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[45, 55, 65, 75]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:57:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 40,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[0.1, 0.2, 0.3]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:58:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 41,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[1000, 2000]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T22:59:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 42,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022ESTO ES UN GRITO EN MAYÚSCULAS\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:05:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 43,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022C# IS POWERFUL AND VERSATILE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:06:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 44,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022L'ITALIA È UN PAESE BELLISSIMO\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:07:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 45,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022LEARNING LANGUAGES OPENS DOORS\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:08:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 46,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022PROGRAMMING IN THE CLOUD\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:09:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 47,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022HOLA A TODOS DESDE EL CURSO DE ESPAÑOL\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:10:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 48,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022ASYNCHRONOUS PROGRAMMING IS COOL\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:11:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 49,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022NON MI PIACE URLARE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:12:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 50,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022CLEAN ARCHITECTURE IS THE WAY\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:13:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 51,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022STOP USING ALL CAPS PLEASE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:14:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 52,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022EL CÓDIGO LIMPIO ES MÁS FÁCIL DE LEER\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:15:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 53,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022EVERYTHING SHOULD BE IN LOWERCASE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:16:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 54,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022LA SINTASSI È MOLTO IMPORTANTE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:17:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 55,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022GITHUB ACTIONS FOR AUTOMATION\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:18:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 56,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022NUESTRA META ES LA FLUIDEZ\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:19:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 57,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022OBJECT ORIENTED PROGRAMMING RULES\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:20:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 58,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022EL PRÓXIMO AÑO VIAJARÉ A MADRID\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:21:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 59,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022VOGLIO IMPARARE LO SPAGNOLO VELOCEMENTE\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:22:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 60,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022CORRER 20 KM ES MAS SENCILLO QUE CORRER 40\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:22:00.000000-04:00",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 61,
+    "Type": 0,
+    "Payload": "No se que estoy escribiendo",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:30:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 62,
+    "Type": 0,
+    "Payload": "{\u0022TextoEquivocado\u0022:\u0022Esto fallará porque la propiedad no es 'Text'\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:30:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 63,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022:[10, \u0022no_soy_un_numero\u0022, 30]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:31:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 64,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022: 12345}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:32:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 65,
+    "Type": 0,
+    "Payload": "Este ni siquiera es un formato JSON",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:33:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 66,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: 100}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:34:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 67,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022:\u0022Falta la llave de cierre",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:35:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 68,
+    "Type": 0,
+    "Payload": "null",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:36:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 69,
+    "Type": 2,
+    "Payload": "{}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:37:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 70,
+    "Type": 1,
+    "Payload": "{\u0022Data\u0022: {\u0022Inside\u0022: \u0022Too deep\u0022}}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:38:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 71,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022: \u0022\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:39:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 72,
+    "Type": 2,
+    "Payload": "{\u0022Numeros\u0022: [1,2,3]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:40:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 73,
+    "Type": 1,
+    "Payload": "[{\u0022Text\u0022: \u0022Soy un array, no un objeto\u0022}]",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:41:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 74,
+    "Type": 0,
+    "Payload": "{\u0022text\u0022: \u0022Case sensitive error?\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:42:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 75,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: null}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:43:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 76,
+    "Type": 1,
+    "Payload": "{Text: SinComillas}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:44:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 77,
+    "Type": 0,
+    "Payload": "{\u0022Text\u0022: \u0022Mala codificación \\z\\x\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:45:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 78,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: [Infinity, NaN]}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:46:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 79,
+    "Type": 1,
+    "Payload": "{\u0022Text\u0022: true}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:47:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 80,
+    "Type": 0,
+    "Payload": "{\u0022Result\u0022: \u0022Confundiendo el Payload con el Result\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:48:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  },
+  {
+    "Id": 81,
+    "Type": 2,
+    "Payload": "{\u0022Numbers\u0022: \u00221,2,3 (Esto es un string, no un array)\u0022}",
+    "Status": 0,
+    "CreatedAt": "2026-01-25T23:49:00Z",
+    "FinishedAt": null,
+    "IsDeleted": false,
+    "Result": null
+  }
+]

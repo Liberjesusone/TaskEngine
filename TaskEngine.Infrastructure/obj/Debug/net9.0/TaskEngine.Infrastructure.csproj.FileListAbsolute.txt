@@ -17,3 +17,7 @@ C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\o
 C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\obj\Debug\net9.0\TaskEngine.Infrastructure.pdb
 C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\obj\Debug\net9.0\ref\TaskEngine.Infrastructure.dll
 C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\bin\Debug\net9.0\Data\tasks.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\bin\Debug\net9.0\Data\TO_LOWER_TASKS.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\bin\Debug\net9.0\Data\TO_UPPER_TASKS.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\bin\Debug\net9.0\Data\GET_MEAN_TASKS.json
+C:\Users\liber\OneDrive\Documentos\GitHub\TaskEngine\TaskEngine.Infrastructure\bin\Debug\net9.0\Data\TASKS_TO_FAIL.json

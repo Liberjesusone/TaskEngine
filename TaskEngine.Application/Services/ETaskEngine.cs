@@ -102,7 +102,7 @@ public class ETaskEngine
         // List to hold the running tasks for parallel execution
         List<Task> runningTasks = new List<Task>();
 
-        Console.WriteLine($"Doing {TaskQueue.Count} tasks\n");
+        Console.WriteLine($"Doing {n} tasks\n");
         // If there is a task to process and it's not deleted or null
         while (n > 0 && DeQueue(out ETask? taskToProcess))
         {
