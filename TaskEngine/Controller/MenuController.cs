@@ -7,10 +7,10 @@ public class MenuController : Controller
 {
     IETaskRepository _eTasksRepository;
     ETaskEngine _engine; 
-    public MenuController(IETaskRepository eTasksRepository)
+    public MenuController(IETaskRepository eTasksRepository, ETaskEngine engine)
     {
         _eTasksRepository = eTasksRepository;
-        _engine = new ETaskEngine(_eTasksRepository);
+        _engine = engine;
     }
 
     public override async Task Show()

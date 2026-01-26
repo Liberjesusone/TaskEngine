@@ -48,7 +48,7 @@ public class TO_LOWER_H : IHandler
                 return null;
             }
 
-            await Task.Delay(15000); // OJO Just for testing parallelism Simulate a delay of 15 seconds
+            await Task.Delay(15000); // TODO: Just for testing parallelism Simulate a delay of 15 seconds
 
             string result = data.Text.ToLower();
             return new { LowerText = result };

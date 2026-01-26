@@ -54,7 +54,7 @@ public class GET_MEAN_H : IHandler
                 return null;
             }
 
-            await Task.Delay(5000); // OJO Just for testing parallelism Simulate a delay of 5 seconds
+            await Task.Delay(5000); // TODO: Just for testing parallelism Simulate a delay of 5 seconds
 
             double result = data.Numbers.Average();
 

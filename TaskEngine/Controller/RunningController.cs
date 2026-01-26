@@ -12,7 +12,7 @@ public class RunningController : Controller
         this._eTasksRepository = eTaskRepository;                                                    
     }
 
-    // OJO here we can add the time expected with some logic after doing it , now its hardcoded
+    // TODO: here we can add the time expected with some logic after doing it , now its hardcoded
     public void ShowList()
     {
         _eTasksRepository.ForEach(

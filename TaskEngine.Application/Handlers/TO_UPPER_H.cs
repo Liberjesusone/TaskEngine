@@ -48,7 +48,7 @@ public class TO_UPPER_H : IHandler
                 return null;
             }
 
-            await Task.Delay(25000); // OJO Just for testing parallelism Simulate a delay of 25 seconds
+            await Task.Delay(25000); // TODO: Just for testing parallelism Simulate a delay of 25 seconds
 
             return new { UpperText = data.Text.ToUpper() };
         }

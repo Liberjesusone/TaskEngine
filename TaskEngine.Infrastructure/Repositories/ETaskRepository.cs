@@ -18,8 +18,8 @@ public class ETaskRepository : IETaskRepository
     }
 
 
-    // OJO no se esta haciendo ningun control de los true or false de los saveAllAsync
-    // OJO hay que buscar una mejor manera de manejar los IDS
+    // TODO: any control of the true or false results is been made in saveAllAsync
+    // TODO: we have to look for a better and unique way to create the IDS
     /// <summary>
     /// Asynchronously adds a new ETask to the collection and assigns it a unique Id.
     /// </summary>

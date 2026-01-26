@@ -35,7 +35,7 @@ public class ETaskEngine
         await HandleTasksAsync(TaskQueue.Count);
     }
 
-    /// OJO in this method we save in memory just after processing all tasks, we can change this behavior if needed
+    /// TODO: in this method we save in memory just after processing all tasks, we can change this behavior if needed
     /// <summary>
     /// Processes up to 'n' tasks from the queue.
     /// </summary>
@@ -71,7 +71,7 @@ public class ETaskEngine
                         taskToProcess.FinishedAt = DateTime.Now;
                     }
 
-                    // OJO here we can do something with the result if needed
+                    // TODO: here we can do something with the result if needed
                     Console.WriteLine("Result: " + result.ToString() + "\n");
                 }
                 else
@@ -148,6 +148,7 @@ public class ETaskEngine
             task.FinishedAt = DateTime.Now;
             Console.WriteLine($"Task {task.Id} completed Result: {result.ToString()} \n");
         }
+        // TODO: here we can do something with the result if needed like a Log to store the history
     }
 
 
